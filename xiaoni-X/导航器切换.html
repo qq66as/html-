@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        body,ul,li{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        /* .ju{
+            margin: 0 auto;
+            width: 1260px;
+        } */
+        .clears::before{
+            content: "";
+            display: table;
+        }
+        .clears::after{
+            clear: both;
+        }
+    .doing ul{
+    margin-bottom:22px;
+    line-height: 66px;
+}
+    .doing li{
+       float: left; 
+       list-style: none;
+    }
+    .doing li{
+        display: block;
+          width: 20%;
+        cursor: pointer;
+        line-height: 68px;
+        height: 68px;
+        text-align: center;
+        background: #414141;
+    }
+    .doing .n{
+    display: block;
+    background-color: #f1393a;
+    width:20%;
+    cursor: pointer;/*光标手*/
+    line-height: 68px;
+    height: 68px;
+    text-align: center;
+    }
+    .niu{
+        margin-top: 20px;
+        margin-right: -14px;
+        text-align: center;
+    }
+    .niu ul{
+        display: block;
+    }
+    .niu li{
+        float: left;
+        width: 400px;
+        /* background: rgb(175, 147, 147); */
+        border: 1px solid blue;
+        height: 190px;
+        display: block;
+        margin-left: 13px;
+        margin-top: 13px;
+    }
+    </style>
+</head>
+<body>
+    <div class="ju">
+        <div class="doing clears">
+            <ul id="car">
+                <li></li>
+                <li class="n"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="niu clears">
+            <ul id="dacar">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,328 @@
+body,ul,li{
+    margin: 0px;
+   padding: 0px;
+}
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    height: 2500px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* 顶部菜单栏 */
+.topbar{
+    height: 40px;
+    /* border: 1px solid black; */
+    background: #333;
+}
+.container{
+    margin: 0 auto;
+    width: 1226px;
+}
+.container::after,.container::after,
+.clearfix:after,.clearfix::after{
+    display: table;
+    content: "";
+}
+.container::after,.clearfix::after{
+    clear: both;
+}
+.topbar a{
+    color: #B0B0B0;
+    font-size: 12px;
+}
+.topbar :hover{
+    color: #fff;
+}
+.topbar-nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.topbar-nav span{
+    font-size: 12px;
+    color:#424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+.topbar-nav{
+    float: left;
+}
+
+.topbar-cart,.topbar-info{
+    float: right;
+}
+.topbar-cart a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    background-color: #424242;
+    text-align: center;
+}
+.topbar-cart a i{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 4px;
+    vertical-align: -4px;
+}
+.topbar-cart span{
+    font-size: 12px;
+    margin-left: -4px;
+}
+.topbar-cart a:hover{
+    background-color: #fff;
+    color: #ff6700;
+}
+.topbar-info{
+  margin-right: 15px;
+}
+.topbar-info a{
+    float: left;
+    color: #b0b0b0;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 5px;
+}
+.topbar-info span{
+    float: left;
+    color: #424242;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 40px;
+    height: 40px;
+}
+.topbar-info .selp{
+    padding: 0 10px;
+}
+/* logo和分类导航 */
+.header{
+    height: 100px;
+}
+.seader-logo{
+    float: left;
+    width: 62px;
+    /* border: 1px solid black; */
+    height: 50px;
+    margin-top: 22px;
+}
+.seader-logo a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background:#ff6700 url(../img/mi-logo.png) no-repeat 50% 50%;
+    border-radius:21px;
+}
+.seader-logo .lr{
+    text-align: left;  
+    text-indent: -2555em;
+}
+/* 导航 */
+.seader-nav{
+    float: left;
+    width: 820px;
+    /* border: 1px solid black; */
+    height:100px;
+}
+.seader-nav .nav-list{
+    width: 820px;
+    height: 88px;
+    font-size: 16px;
+    padding:12px 0 0 30px;
+} 
+.seader-nav .nav-list .nav-category{
+    float: left;
+    width: 127px;
+    padding: 0 15px 0 0;
+}
+.seader-nav .nav-list .nav-category a{
+    display: block;
+    color: #333;
+    padding: 26px 0 38px;
+    text-align: right;
+}
+.seader-nav .nav-list .nav-item{
+    float: left;
+}
+.seader-nav .nav-list .nav-item a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.seader-nav .nav-list .nav-item a:hover{
+    color: #ff6700;
+}
+/* 搜索框 */
+.seader-search{
+    position: relative;
+    float: right;
+    width: 296px;
+    /* border: 1px solid black; */
+    height: 50px;
+    margin-top: 25px;
+}
+.seader-search  .search-text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    position: absolute;
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    outline: 0;
+    border: 1px solid black;
+}
+.seader-search  .search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height:50px;
+    font-size: 24px;
+    line-height: 24px;
+    outline: 0;
+    background:#fff;
+    color: #616161;
+    border: 1px solid black;  
+}
+.seader-search  .search-btn:hover{
+   background-color: #ff6700;
+   color: #fff;
+}
+/* 选项卡 */
+.seakill{
+    background: #f5f5f5;
+}
+.seakill .seakill-head{
+    margin-top: 19px;
+    background: url(../img/seckill-head.jpg) no-repeat 50% 0;
+    height: 170px;
+}
+.seakill-nav{
+    margin: -68px 0 22px;
+}
+.seakill-nav ul{
+    height: 68px;
+    background: #414141;
+}
+.seakill-nav .active{
+    background: #f1393a;
+}
+.seakill-nav li{
+    display: block;
+    float: left;
+    height: 68px;
+    line-height: 68px;
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.seakill-nav li em{
+     display: inline-block;
+     font-size: 15px;
+     font-style: normal;
+     vertical-align: middle;
+     margin-left: 30px;
+     line-height: 1;
+}
+.seakill-nav li span{
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 14px;
+    font-style: normal;
+}
+.seakill-nav li span em{
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+    line-height: 20px;
+}
+/* 商品列表 */
+.seakill-goods ul{
+   margin-right: -13px;
+}
+.seakill-goods li{
+    float: left;
+    display: block;
+    width: 400px;
+    height: 190px;
+   background: #fff;
+   margin-bottom:13px;
+   margin-right:13px;
+}
+.xie{
+    padding-bottom: 35px;
+    font-size: 12px;
+    color: rgba(0,0,0,.27);
+    margin-top: 100px;
+}
+.clearfix .bg{
+    width: 190px;
+    height: 190px;
+    float: left;
+    /* border: 1px solid black; */
+}
+.clearfix .bg img{
+    width: 190px;
+}
+.clearfix .info{
+    margin-left:210px;
+    width: 180px;
+    height: 190px;
+    margin-top:30px;
+    /* border: 1px solid black; */
+}
+.clearfix .info .dian{
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.clearfix .info .jin{
+     color: #999;
+     font-size: 12px;
+     margin-top: 7px;
+     line-height: 16px;
+}
+.clearfix .info .er{
+    margin-top: 28px;
+}
+.clearfix .info .san{
+    font-size: 16px;
+    color: #f1393a;
+    line-height: 16px;
+    margin-top: 14px;
+}
+.clearfix .info .dels{
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+    line-height: 12px;
+}
+.clearfix .info .den{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    color: #fff;
+    background-color: #f1393a;
+    line-height:28px;
+    font-size: 14px;
+   text-align: center;
+   border: 1px solid #f5f5f5;
+}
